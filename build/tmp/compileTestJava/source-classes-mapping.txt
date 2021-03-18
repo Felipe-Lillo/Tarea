@@ -1,0 +1,19 @@
+Utils/DriverManager.java
+ Utils.DriverManager
+ Utils.DriverManager$1
+Utils/DriverContext.java
+ Utils.DriverContext
+testClases/Ingresar.java
+ testClases.Ingresar
+Utils/ReadProperties.java
+ Utils.ReadProperties
+page/Login.java
+ page.Login
+Utils/Navegador.java
+ Utils.Navegador
+page/Tarea.java
+ page.Tarea
+testClases/validacionMensaje.java
+ testClases.validacionMensaje
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion
