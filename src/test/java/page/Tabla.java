@@ -18,7 +18,7 @@ public class Tabla {
     @FindBy(xpath = "//*[@id=\"pluginAppObj_4_01_filter_button\"]")
     WebElement btnFiltrar;
 
-    @FindBy(xpath = "//*[@id=\"pluginAppObj_4_01_jtable\"]/div/table/tbody")
+    @FindBy(xpath = "//*[@id=\"pluginAppObj_4_01_jtable\"]/div/table")
     WebElement Body;
 
 

@@ -21,13 +21,13 @@ page/Login.java
  page.Login
 testClases/Ingresar.java
  testClases.Ingresar
+testClases/Archivo.java
+ testClases.Archivo
 testSuite/recuperarInformacion.java
  testSuite.recuperarInformacion
+page/SubirArchivo.java
+ page.SubirArchivo
 testClases/RecuperarTabla.java
  testClases.RecuperarTabla
 page/Tabla.java
  page.Tabla
-page/SubirArchivo.java
- page.SubirArchivo
-testClases/Archivo.java
- testClases.Archivo

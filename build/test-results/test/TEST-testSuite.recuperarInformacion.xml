@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-23T15:57:13" hostname="DESKTOP-DIGRJAB" time="3.785">
+<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-23T18:48:11" hostname="DESKTOP-DIGRJAB" time="7.47">
   <properties/>
-  <testcase name="SubirArchivo" classname="testSuite.recuperarInformacion" time="3.785"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="ExtraerDatosTabla" classname="testSuite.recuperarInformacion" time="7.47"/>
+  <system-out><![CDATA[id
+Campo_Texto
+Campo_Mail
+Campo_Area_de_Texto
+Campo_Fecha
+Campo_Lista
+Campo_Seleccion_Multiple
+Combo_Radio_Button
+4191 Felipe Lillo qanova@prueba.cl Este es un mensaje de prueba 29/12/2008 valor 1 selección 1 cr 2
+4192 Felipe Lillo pruebas@gmail.com Prueba automatIzada 08/06/1978 valor 3 selección 1, selección 3, selección 2 cr 2
+
+*********************************************
+*********************************************
+ID
+4191;4192;
+TEXTO
+Felipe Lillo;Felipe Lillo;
+EMAIL
+qanova@prueba.cl;pruebas@gmail.com;
+AREA
+Este es un mensaje de prueba;Prueba automatIzada;
+FECHA
+29/12/2008;08/06/1978;
+LISTA
+valor 1;valor 3;
+SELECCION
+selección 1;selección 1, selección 3, selección 2;
+RADIO
+cr 2;cr 2;
+*********************************************
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

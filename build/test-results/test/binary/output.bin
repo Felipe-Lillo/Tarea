@@ -1,0 +1,31 @@
+id
+Campo_Texto
+Campo_Mail
+Campo_Area_de_Texto
+Campo_Fecha
+Campo_Lista
+Campo_Seleccion_Multiple
+Combo_Radio_Button
+e4191 Felipe Lillo qanova@prueba.cl Este es un mensaje de prueba 29/12/2008 valor 1 selección 1 cr 2
+z4192 Felipe Lillo pruebas@gmail.com Prueba automatIzada 08/06/1978 valor 3 selección 1, selección 3, selección 2 cr 2
+
+/*********************************************
+/*********************************************
+ID
+4191;4192;
+TEXTO
+Felipe Lillo;Felipe Lillo;
+EMAIL
+%qanova@prueba.cl;pruebas@gmail.com;
+AREA
+3Este es un mensaje de prueba;Prueba automatIzada;
+FECHA
+29/12/2008;08/06/1978;
+LISTA
+valor 1;valor 3;
+
+SELECCION
+8selección 1;selección 1, selección 3, selección 2;
+RADIO
+cr 2;cr 2;
+/*********************************************
