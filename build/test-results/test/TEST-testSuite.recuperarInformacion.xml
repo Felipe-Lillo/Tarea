@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-18T18:11:15" hostname="DESKTOP-DIGRJAB" time="1.153">
+<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-23T15:57:13" hostname="DESKTOP-DIGRJAB" time="3.785">
   <properties/>
-  <testcase name="Ingresar" classname="testSuite.recuperarInformacion" time="1.153"/>
+  <testcase name="SubirArchivo" classname="testSuite.recuperarInformacion" time="3.785"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

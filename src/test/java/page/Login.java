@@ -23,7 +23,6 @@ public class Login {
     public void ingresarUsuario(String usuario, String clave) throws InterruptedException{
 
         txtUsuario.sendKeys(usuario);
-        txtClave.click();
         txtClave.sendKeys(clave);
         btnIngresar.click();
 

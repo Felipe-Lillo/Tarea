@@ -7,8 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class Tarea {
+
     @FindBy(xpath = "//*[@id=\"imLoginPage\"]/div[3]/div")
     WebElement msmError;
+
     @FindBy(xpath = "//*[@id=\"imLogin\"]/form/div[3]/input")
     WebElement btnIngresar;
 
@@ -25,6 +27,7 @@ public class Tarea {
         msmError.getText();
         System.out.println(msmError.getText());
         Assert.assertEquals(msmError.getText(),"Nombre y/o password incorrecto");
+
 
     }
 }

@@ -3,17 +3,31 @@ Utils/DriverManager.java
  Utils.DriverManager$1
 Utils/DriverContext.java
  Utils.DriverContext
-testClases/Ingresar.java
- testClases.Ingresar
+testClases/ValidarPagina.java
+ testClases.ValidarPagina
 Utils/ReadProperties.java
  Utils.ReadProperties
-page/Login.java
- page.Login
+Utils/Espera.java
+ Utils.Espera
 Utils/Navegador.java
  Utils.Navegador
+page/ValidacionOpciones.java
+ page.ValidacionOpciones
 page/Tarea.java
  page.Tarea
 testClases/validacionMensaje.java
  testClases.validacionMensaje
+page/Login.java
+ page.Login
+testClases/Ingresar.java
+ testClases.Ingresar
 testSuite/recuperarInformacion.java
  testSuite.recuperarInformacion
+testClases/RecuperarTabla.java
+ testClases.RecuperarTabla
+page/Tabla.java
+ page.Tabla
+page/SubirArchivo.java
+ page.SubirArchivo
+testClases/Archivo.java
+ testClases.Archivo
