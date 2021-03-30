@@ -24,7 +24,10 @@ public class Login {
 
         txtUsuario.sendKeys(usuario);
         txtClave.sendKeys(clave);
+        //PdfQaNovaReports.addWebReportImage("Ingresando_la página", "Se ingresa a la pagina Web con la Dirección http://www.qanovagroup.com/piloto/index.php y se entregan lo datos  necesarios (usuario y contrasena validos)", EstadoPrueba.PASSED, false);
         btnIngresar.click();
+        Thread.sleep(2000);
+        //PdfQaNovaReports.addWebReportImage("Pestaña Carga de información", "Se muestra satisfactoriamente el ingreso a la página", EstadoPrueba.PASSED, false);
 
 
     }

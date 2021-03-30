@@ -1,33 +1,56 @@
+Utils/ReadProperties.java
+ Utils.ReadProperties
+page/DescargarDocumento.java
+ page.DescargarDocumento
+Utils/Reporte/ImageResize.java
+ Utils.Reporte.ImageResize
+Utils/Constants/Constants.java
+ Utils.Constants.Constants
+testClases/Descargar.java
+ testClases.Descargar
+Utils/Constants/Ambientes.java
+ Utils.Constants.Ambientes
+Utils/Validaciones.java
+ Utils.Validaciones
+Utils/Reporte/EstadoPrueba.java
+ Utils.Reporte.EstadoPrueba
+testClases/EnviarMail.java
+ testClases.EnviarMail
+Utils/Constants/Navegador.java
+ Utils.Constants.Navegador
+page/Login.java
+ page.Login
+Utils/Utils.java
+ Utils.Utils
+testClases/validacionMensaje.java
+ testClases.validacionMensaje
+testClases/ValidarPagina.java
+ testClases.ValidarPagina
+testClases/IngresoNuevoUsuario.java
+ testClases.IngresoNuevoUsuario
+page/CrearUsuario.java
+ page.CrearUsuario
+testClases/Ingresar.java
+ testClases.Ingresar
+page/SubirArchivo.java
+ page.SubirArchivo
+Utils/DriverContext.java
+ Utils.DriverContext
+testClases/Archivo.java
+ testClases.Archivo
 Utils/DriverManager.java
  Utils.DriverManager
  Utils.DriverManager$1
-Utils/DriverContext.java
- Utils.DriverContext
-testClases/ValidarPagina.java
- testClases.ValidarPagina
-Utils/ReadProperties.java
- Utils.ReadProperties
-Utils/Espera.java
- Utils.Espera
-Utils/Navegador.java
- Utils.Navegador
-page/ValidacionOpciones.java
- page.ValidacionOpciones
+Utils/Reporte/PdfQaNovaReports.java
+ Utils.Reporte.PdfQaNovaReports
+ Utils.Reporte.PdfQaNovaReports$1
 page/Tarea.java
  page.Tarea
-testClases/validacionMensaje.java
- testClases.validacionMensaje
-page/Login.java
- page.Login
-testClases/Ingresar.java
- testClases.Ingresar
-testClases/Archivo.java
- testClases.Archivo
-testSuite/recuperarInformacion.java
- testSuite.recuperarInformacion
-page/SubirArchivo.java
- page.SubirArchivo
+page/ValidacionOpciones.java
+ page.ValidacionOpciones
 testClases/RecuperarTabla.java
  testClases.RecuperarTabla
 page/Tabla.java
  page.Tabla
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion

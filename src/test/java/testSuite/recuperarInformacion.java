@@ -1,9 +1,9 @@
 package testSuite;
 
+import Utils.Constants.Navegador;
 import Utils.DriverContext;
-import Utils.Espera;
-import Utils.Navegador;
 import Utils.ReadProperties;
+import Utils.Reporte.PdfQaNovaReports;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -14,11 +14,11 @@ public class recuperarInformacion {
     String Usuario = ReadProperties.readFromConfig("Properties.properties").getProperty("usuario");
     String Clave = ReadProperties.readFromConfig("Properties.properties").getProperty("clave");
 
-
-
     @BeforeTest
     public void setUp(){
         DriverContext.setUp(Navegador.Chrome,url);
+        PdfQaNovaReports.createPDF();
+
     }
 
     @AfterTest
@@ -27,44 +27,73 @@ public class recuperarInformacion {
     }
 
     @Test
-    public void Ingresar() throws InterruptedException{
+    public void ingresar() throws InterruptedException{
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio("nvivas","qanova");
+        ingresar.inicio(Usuario,Clave);
+        PdfQaNovaReports.closePDF();
     }
 
     @Test
-    public void BuscarColor() throws InterruptedException {
+    public void nuevoUsuario() throws InterruptedException{
+        IngresoNuevoUsuario ingreso = new IngresoNuevoUsuario();
+        ingreso.NuevoUsuario();
+        PdfQaNovaReports.closePDF();
+    }
+
+    @Test
+    public void buscarColor() throws InterruptedException {
         validacionMensaje validar = new validacionMensaje();
-        validar.EntregarMensaje();
+        validar.entregarMensaje();
+        PdfQaNovaReports.closePDF();
     }
 
     @Test
-    public void RellenarCamposPage()throws InterruptedException{
+    public void rellenarCamposPage()throws InterruptedException{
         Ingresar ingresar = new Ingresar();
         ingresar.inicio(Usuario,Clave);
-        Espera.esperar("//*[@id=\"imObjectForm_1_2\"]");
         ValidarPagina validarPagina = new ValidarPagina();
-        validarPagina.Rellenar("Hola mundo","19/03/2021","git@github.com");
+        validarPagina.rellenar("Hola mundo","19/03/2021","git@github.com");
+        PdfQaNovaReports.closePDF();
     }
 
     @Test
-    public void ExtraerDatosTabla() throws InterruptedException {
+    public void extraerDatosTabla() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
         ingresar.inicio(Usuario,Clave);
-
-        Espera.esperar("//*[@id=\"imMnMnNode4\"]/a/span/span/span[2]");
         RecuperarTabla recuperar = new RecuperarTabla();
-        recuperar.DatosTabla();
+        recuperar.datosTabla();
 
     }
+
     @Test
-    public void SubirArchivo () throws InterruptedException{
+    public void subirArchivo() throws InterruptedException{
         Ingresar ingresar = new Ingresar();
         ingresar.inicio(Usuario,Clave);
-        Espera.esperar("//*[@id=\"imMnMnNode6\"]");
         Archivo archivo = new Archivo();
-        archivo.RecuperarArchivo();
+        archivo.recuperarArchivo();
     }
 
+    @Test
+    public void descarArchivo() throws InterruptedException{
+        Descargar descarga = new Descargar();
+        descarga.Almacenar();
+    }
+    @Test
+    public void seleccionarDia() throws InterruptedException{
+        Ingresar ingresar = new Ingresar();
+        ingresar.inicio(Usuario,Clave);
+        ValidarPagina validar = new ValidarPagina();
+        validar.rellenarCalendario();
 
+    }
+
+    @Test
+    public void enviarCorreo() throws InterruptedException{
+        Ingresar ingresar = new Ingresar();
+        ingresar.inicio(Usuario,Clave);
+        RecuperarTabla recuperar = new RecuperarTabla();
+        recuperar.datosTabla();
+        EnviarMail enviarMail = new EnviarMail();
+        enviarMail.enviarMensange();
+    }
 }

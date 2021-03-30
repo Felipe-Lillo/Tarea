@@ -3,11 +3,16 @@ package testClases;
 import page.ValidacionOpciones;
 
 public class ValidarPagina {
-    ValidacionOpciones validacionOpciones;
 
-    public void Rellenar(String texto,String fecha ,String Email)throws InterruptedException{
-        validacionOpciones = new ValidacionOpciones();
-        validacionOpciones.llenarCampos(texto,fecha,Email);
 
+    public void rellenar(String texto, String fecha , String Email)throws InterruptedException{
+        ValidacionOpciones validar = new ValidacionOpciones();
+        validar.llenarCampos(texto,fecha,Email);
     }
+
+    public void rellenarCalendario() throws InterruptedException{
+        ValidacionOpciones validar = new ValidacionOpciones();
+        validar.calendario();
+    }
+
 }

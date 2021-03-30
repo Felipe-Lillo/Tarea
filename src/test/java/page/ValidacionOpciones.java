@@ -2,10 +2,16 @@ package page;
 
 import Utils.DriverContext;
 import Utils.ReadProperties;
+import Utils.Reporte.EstadoPrueba;
+import Utils.Reporte.PdfQaNovaReports;
+import Utils.Validaciones;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 
 public class ValidacionOpciones {
@@ -20,7 +26,8 @@ public class ValidacionOpciones {
     @FindBy(id = "imObjectForm_1_4")
     WebElement txtComentario;
 
-    @FindBy(id = "imObjectForm_1_5")
+    @FindBy(xpath = "//*[@id=\"imObjectForm_1_5\"]")
+
     WebElement dateFecha;
 
     @FindBy(id = "imObjectForm_1_6")
@@ -47,12 +54,21 @@ public class ValidacionOpciones {
     @FindBy(xpath = "//*[@id=\"imObjectForm_1_submit\"]")
     WebElement btnIngresar;
 
-//---- PageFactory ----
+    @FindBy(xpath = "//*[@id=\"imObjectForm_1_5_icon\"]")
+    WebElement btnCalendario;
+
+    @FindBy(xpath = "//*[@id=\"imDPcal\"]/table/tbody")
+    WebElement bodyCalendario;
+
+
+    //---- PageFactory ----
+
     public ValidacionOpciones(){
         PageFactory.initElements(DriverContext.getDriver(),this);
     }
-    public void llenarCampos( String texto, String fecha ,String Email){
 
+    public void llenarCampos( String texto, String fecha ,String Email){
+        PdfQaNovaReports.addWebReportImage("CPA0040", "Despliege de la pestaña ensu totalidad con los campos de textos necesario y botones activos",EstadoPrueba.PASSED,false);
         cuaTexto.sendKeys(texto);
         txtCorreo.sendKeys(Email);
         txtComentario.sendKeys(texto);
@@ -82,6 +98,7 @@ public class ValidacionOpciones {
         if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox3").equals("true")){
             checkBox3.click();
         }
+
         switch (ReadProperties.readFromConfig("Properties.properties").getProperty("opcionButon")){
             case "1":
                 radioBtn1.click();
@@ -95,18 +112,43 @@ public class ValidacionOpciones {
             default:
                 System.out.println("No Existe la opcion ingresada");
         }
-
+        PdfQaNovaReports.addWebReportImage("CPA0050","Ingreso total de todos los campos de la Pestaña", EstadoPrueba.PASSED,false );
         btnIngresar.click();
+    }
+
+    public void calendario() throws InterruptedException{
+        Validaciones.validarObjeto(btnCalendario, "Boton para desplegar calendario");
+        btnCalendario.click();
+
+        Validaciones.validarObjeto(bodyCalendario, "Cuerpo del calendario");
+        List<WebElement> Filas = bodyCalendario.findElements(By.tagName("td"));
+        int cantFilas = Filas.size();
+        for (int x = 1; x <cantFilas; x++){
+            String dia = Filas.get(x).getText();
+            if (dia.equalsIgnoreCase(ReadProperties.readFromConfig("Properties.properties").getProperty("Dia"))){
+                Filas.get(x).click();
+                break;
+            }
+        }
 
 
+        /*
+        String lunes = "" , martes = "" , miercoles = "", jueves = "", viernes = "", sabado = "", domingo = "";
+        {
 
-
-
-
-
-
-
-
+            lunes = lunes + Columnas.get(0).getText() + "\n - ";
+            martes = martes + Columnas.get(1).getText() + "\n - ";
+            miercoles = miercoles + Columnas.get(2).getText() + "\n - ";
+            jueves = jueves + Columnas.get(3).getText() + "\n - ";
+            viernes = viernes + Columnas.get(4).getText() + "\n - ";
+            sabado = sabado + Columnas.get(5).getText() + "\n - ";
+            domingo = domingo + Columnas.get(6).getText() + "\n";
+        }
+        //System.out.println("Lunes" + lunes + "Martes" + );
+        System.out.print("Lunes -  Martes - Miercoles - Jueves - Viernes - Sabado - Domingo");
+        System.out.println(lunes + martes + miercoles + jueves + viernes + sabado + domingo );
+        System.out.print("*********************************************");
+        */
     }
 
 }

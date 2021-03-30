@@ -1,7 +1,6 @@
 package page;
 
 import Utils.DriverContext;
-import Utils.Espera;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,11 +18,11 @@ public class SubirArchivo {
         PageFactory.initElements(DriverContext.getDriver(),this);
     }
 
-    public void Procesos(String ruta)throws InterruptedException{
+    public void procesos(String ruta)throws InterruptedException{
 
         btnCargaArchivos.click();
         btnSelecionarArchivos.sendKeys(ruta);
-        Espera.esperar("//*[@id=\"imObjectForm_1_submit\"]");
+
         btnEnviar.click();
     }
 

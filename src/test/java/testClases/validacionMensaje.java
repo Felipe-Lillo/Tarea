@@ -4,9 +4,9 @@ import page.Tarea;
 
 public class validacionMensaje {
 
-    public void EntregarMensaje () throws InterruptedException{
+    public void entregarMensaje() throws InterruptedException{
         Tarea tarea = new Tarea();
-        tarea.RecuperarMensaje();
+        tarea.recuperarMensaje();
 
     }
 }
