@@ -4,13 +4,17 @@ import page.ValidacionOpciones;
 
 public class ValidarPagina {
 
-
-    public void rellenar(String texto, String fecha , String Email)throws InterruptedException{
+    /**
+     * Creación del constructor donde llamaremos a la clase Java ValidacionOpciones/llenarCampos
+     */
+    public void rellenar(String texto, String fecha, String Email) throws InterruptedException {
         ValidacionOpciones validar = new ValidacionOpciones();
-        validar.llenarCampos(texto,fecha,Email);
+        validar.llenarCampos(texto, fecha, Email);
     }
-
-    public void rellenarCalendario() throws InterruptedException{
+    /**
+     * Creación del constructor donde llamaremos a la clase Java ValidacionOpciones/calendario
+     */
+    public void rellenarCalendario() throws InterruptedException {
         ValidacionOpciones validar = new ValidacionOpciones();
         validar.calendario();
     }

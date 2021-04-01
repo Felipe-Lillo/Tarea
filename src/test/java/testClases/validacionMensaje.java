@@ -3,8 +3,10 @@ package testClases;
 import page.Tarea;
 
 public class validacionMensaje {
-
-    public void entregarMensaje() throws InterruptedException{
+    /**
+     * Creación del constructor donde llamaremos a la clase Java Tarea/recuperarMensaje
+     */
+    public void entregarMensaje() throws InterruptedException {
         Tarea tarea = new Tarea();
         tarea.recuperarMensaje();
 

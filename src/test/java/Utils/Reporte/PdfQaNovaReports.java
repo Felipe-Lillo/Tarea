@@ -9,6 +9,7 @@ import com.itextpdf.text.pdf.codec.Base64;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
+
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -21,7 +22,6 @@ import dataSources.ibm.Generico.UtilsIbm;
 import dataSources.ibm.session.Session;*/
 
 public class PdfQaNovaReports {
-
     private static final com.itextpdf.text.Font titleFont = FontFactory.getFont("Courier", 26.0F, 1);
     private static final com.itextpdf.text.Font normalFont = FontFactory.getFont("Courier", 12.0F, 0);
     private static final com.itextpdf.text.Font fontPASSED = FontFactory.getFont("Courier", 12.0F, 1);
@@ -38,12 +38,12 @@ public class PdfQaNovaReports {
     private static PdfWriter writePDF;
     private static boolean cambioEstado = false;
 
+
     public PdfQaNovaReports() {
     }
 
-
     public static String getFullTestName() {
-        return testName + "CPA001" + getFinalStatusTest()  + ".pdf";
+        return testName + " - " + getFinalStatusTest()  + ".pdf";
     }
 
     public static String getFinalStatusTest() {
@@ -73,7 +73,7 @@ public class PdfQaNovaReports {
         StackTraceElement[] ste = Thread.currentThread().getStackTrace();
         String testName = "";
         for (int i = 0; i < ste.length - 1; ++i) {
-            if (ste[i].getMethodName().indexOf("PA00") > 0) {
+            if (ste[i].getMethodName().indexOf("PA00") > 0 || ste[i].getClassName().indexOf("estSuit") > 0) {
 
                 testName = ste[i].getMethodName();
 
@@ -208,7 +208,6 @@ public class PdfQaNovaReports {
 
     public static void createTitlePage() {
         System.out.println("[PdfBciReport] createTitlePage");
-
         try {
             document.newPage();
             Properties properties = ReadProperties.readFromConfig("LogoQaNova.properties");

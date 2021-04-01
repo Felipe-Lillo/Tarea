@@ -6,21 +6,27 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Login {
-
-    @FindBy(id="imUname")
+    //Sitio donde se obtienen y se almacenan los xpath,id,etc.
+    @FindBy(id = "imUname")
     WebElement txtUsuario;
 
-    @FindBy(id="imPwd")
+    @FindBy(id = "imPwd")
     WebElement txtClave;
 
     @FindBy(xpath = "//*[@id=\"imLogin\"]/form/div[3]/input")
     WebElement btnIngresar;
-
-    public Login(){
-        PageFactory.initElements(DriverContext.getDriver(),this);
+    //Metodo que levante el sitio web donde vamos a trabajar
+    public Login() {
+        PageFactory.initElements(DriverContext.getDriver(), this);
     }
 
-    public void ingresarUsuario(String usuario, String clave) throws InterruptedException{
+    /**
+     * Metodo para ingresar al login de la pagina
+     * @param usuario
+     * @param clave
+     * @throws InterruptedException
+     */
+    public void ingresarUsuario(String usuario, String clave) throws InterruptedException {
 
         txtUsuario.sendKeys(usuario);
         txtClave.sendKeys(clave);

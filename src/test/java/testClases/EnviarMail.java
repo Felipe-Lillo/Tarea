@@ -12,14 +12,16 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 public class EnviarMail {
-
+    /**
+     * Creación del metodo para poder enviar los correos via GMAIL, Con sus caracteristicas y demas, hay que hacer ajustes em el correo y instalar JAVA MAIL
+     */
     public void enviarMensange() throws InterruptedException {
         Tabla tabla = new Tabla();
         Properties propiedad = new Properties();
 
         propiedad.put("mail.smtp.host", "smtp.gmail.com");
         propiedad.put("mail.smtp.starttls.enable", "true");
-        propiedad.put("mail.smtp.port",587);
+        propiedad.put("mail.smtp.port", 587);
         propiedad.put("mail.smtp.auth", "true");
 
         Session session = Session.getDefaultInstance(propiedad);
@@ -29,7 +31,7 @@ public class EnviarMail {
         String destinatario = ReadProperties.readFromConfig("Properties.properties").getProperty("correoReceptor");
         String asunto = ReadProperties.readFromConfig("Properties.properties").getProperty("asuntoMail");
 
-        String mensaje= tabla.recuperarDatosTabla();
+        String mensaje = tabla.recuperarDatosTabla();
 
         MimeMessage mail = new MimeMessage(session);
 
@@ -40,7 +42,7 @@ public class EnviarMail {
             mail.setText(mensaje);
 
             Transport transporte = session.getTransport("smtp");
-            transporte.connect(correoEnviar,contrasena);
+            transporte.connect(correoEnviar, contrasena);
             transporte.sendMessage(mail, mail.getRecipients(Message.RecipientType.TO));
             transporte.close();
 

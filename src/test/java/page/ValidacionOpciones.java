@@ -15,8 +15,8 @@ import java.util.List;
 
 
 public class ValidacionOpciones {
-
-//---- FindBy ----
+    //Sitio donde se obtienen y se almacenan los xpath,id,etc.
+    //---- FindBy ----
     @FindBy(xpath = "//*[@id=\"imObjectForm_1_2\"]")
     WebElement cuaTexto;
 
@@ -62,20 +62,20 @@ public class ValidacionOpciones {
 
 
     //---- PageFactory ----
-
-    public ValidacionOpciones(){
-        PageFactory.initElements(DriverContext.getDriver(),this);
+   //Metodo que levante el sitio web donde vamos a trabajar
+    public ValidacionOpciones() {
+        PageFactory.initElements(DriverContext.getDriver(), this);
     }
-
-    public void llenarCampos( String texto, String fecha ,String Email){
-        PdfQaNovaReports.addWebReportImage("CPA0040", "Despliege de la pestaña ensu totalidad con los campos de textos necesario y botones activos",EstadoPrueba.PASSED,false);
+    //Metodo que sirve para llenar los campos de textos de la página, yas sea, campos input de texto, fechas y diferentes botones
+    public void llenarCampos(String texto, String fecha, String Email) {
+        PdfQaNovaReports.addWebReportImage("CPA0040", "Despliege de la pestaña ensu totalidad con los campos de textos necesario y botones activos", EstadoPrueba.PASSED, false);
         cuaTexto.sendKeys(texto);
         txtCorreo.sendKeys(Email);
         txtComentario.sendKeys(texto);
         dateFecha.sendKeys(fecha);
 
         Select Lista = new Select(txbOpciones);
-        switch (ReadProperties.readFromConfig("Properties.properties").getProperty("opcionLista")){
+        switch (ReadProperties.readFromConfig("Properties.properties").getProperty("opcionLista")) {
             case "1":
                 Lista.selectByIndex(1);
                 break;
@@ -89,17 +89,17 @@ public class ValidacionOpciones {
                 System.out.println("No existe la opcion ingresada");
         }
 
-        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox1").equals("true")){
+        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox1").equals("true")) {
             checkBox1.click();
         }
-        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox2").equals("true")){
+        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox2").equals("true")) {
             checkBox2.click();
         }
-        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox3").equals("true")){
+        if (ReadProperties.readFromConfig("Properties.properties").getProperty("Checkbox3").equals("true")) {
             checkBox3.click();
         }
 
-        switch (ReadProperties.readFromConfig("Properties.properties").getProperty("opcionButon")){
+        switch (ReadProperties.readFromConfig("Properties.properties").getProperty("opcionButon")) {
             case "1":
                 radioBtn1.click();
                 break;
@@ -112,20 +112,24 @@ public class ValidacionOpciones {
             default:
                 System.out.println("No Existe la opcion ingresada");
         }
-        PdfQaNovaReports.addWebReportImage("CPA0050","Ingreso total de todos los campos de la Pestaña", EstadoPrueba.PASSED,false );
+        PdfQaNovaReports.addWebReportImage("CPA0050", "Ingreso total de todos los campos de la Pestaña", EstadoPrueba.PASSED, false);
         btnIngresar.click();
     }
 
-    public void calendario() throws InterruptedException{
+    /**
+     * Metodo parecido al de la tala el cual recorre el reecuadro del calendario y devuelve una fecha que este dentro del mes
+     * @throws InterruptedException
+     */
+    public void calendario() throws InterruptedException {
         Validaciones.validarObjeto(btnCalendario, "Boton para desplegar calendario");
         btnCalendario.click();
 
         Validaciones.validarObjeto(bodyCalendario, "Cuerpo del calendario");
         List<WebElement> Filas = bodyCalendario.findElements(By.tagName("td"));
         int cantFilas = Filas.size();
-        for (int x = 1; x <cantFilas; x++){
+        for (int x = 1; x < cantFilas; x++) {
             String dia = Filas.get(x).getText();
-            if (dia.equalsIgnoreCase(ReadProperties.readFromConfig("Properties.properties").getProperty("Dia"))){
+            if (dia.equalsIgnoreCase(ReadProperties.readFromConfig("Properties.properties").getProperty("Dia"))) {
                 Filas.get(x).click();
                 break;
             }

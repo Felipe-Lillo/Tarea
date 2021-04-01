@@ -1,70 +1,3 @@
-HSe despliega correctamente el elemento "Boton matriz", identificador: 
-id
-Campo_Texto
-Campo_Mail
-Campo_Area_de_Texto
-Campo_Fecha
-Campo_Lista
-Campo_Seleccion_Multiple
-Combo_Radio_Button
-e4191 Felipe Lillo qanova@prueba.cl Este es un mensaje de prueba 29/12/2008 valor 1 selección 1 cr 2
-z4192 Felipe Lillo pruebas@gmail.com Prueba automatIzada 08/06/1978 valor 3 selección 1, selección 3, selección 2 cr 2
-
-/*********************************************
-t4191;  Felipe Lillo;  qanova@prueba.cl;  Este es un mensaje de prueba;  29/12/2008;  valor 1;  selección 1;  cr 2;
-
-�4191; 4192;  Felipe Lillo; Felipe Lillo;  qanova@prueba.cl; pruebas@gmail.com;  Este es un mensaje de prueba; Prueba automatIzada;  29/12/2008; 08/06/1978;  valor 1; valor 3;  selección 1; selección 1, selección 3, selección 2;  cr 2;cr 2;
-
-ID
-4191; 4192; 
-TEXTO
-Felipe Lillo; Felipe Lillo; 
-EMAIL
-'qanova@prueba.cl; pruebas@gmail.com; 
-AREA
-5Este es un mensaje de prueba; Prueba automatIzada; 
-FECHA
-29/12/2008; 08/06/1978; 
-LISTA
-valor 1; valor 3; 
-
-SELECCION
-:selección 1; selección 1, selección 3, selección 2; 
-RADIO
-cr 2;cr 2;
-/*********************************************
-HSe despliega correctamente el elemento "Boton matriz", identificador: 
-id
-Campo_Texto
-Campo_Mail
-Campo_Area_de_Texto
-Campo_Fecha
-Campo_Lista
-Campo_Seleccion_Multiple
-Combo_Radio_Button
-e4191 Felipe Lillo qanova@prueba.cl Este es un mensaje de prueba 29/12/2008 valor 1 selección 1 cr 2
-z4192 Felipe Lillo pruebas@gmail.com Prueba automatIzada 08/06/1978 valor 3 selección 1, selección 3, selección 2 cr 2
-
-/*********************************************
-t4191;  Felipe Lillo;  qanova@prueba.cl;  Este es un mensaje de prueba;  29/12/2008;  valor 1;  selección 1;  cr 2;
-
-�4191; 4192;  Felipe Lillo; Felipe Lillo;  qanova@prueba.cl; pruebas@gmail.com;  Este es un mensaje de prueba; Prueba automatIzada;  29/12/2008; 08/06/1978;  valor 1; valor 3;  selección 1; selección 1, selección 3, selección 2;  cr 2;cr 2;
-
-ID
-4191; 4192; 
-TEXTO
-Felipe Lillo; Felipe Lillo; 
-EMAIL
-'qanova@prueba.cl; pruebas@gmail.com; 
-AREA
-5Este es un mensaje de prueba; Prueba automatIzada; 
-FECHA
-29/12/2008; 08/06/1978; 
-LISTA
-valor 1; valor 3; 
-
-SELECCION
-:selección 1; selección 1, selección 3, selección 2; 
-RADIO
-cr 2;cr 2;
-/*********************************************
+[PdfBciReport] closePDF
+ [PdfBciReport] createTitlePage
+!File: C8IYKYYE4AV3IZQ Not found

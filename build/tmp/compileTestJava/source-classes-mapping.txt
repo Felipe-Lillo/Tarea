@@ -2,8 +2,8 @@ Utils/ReadProperties.java
  Utils.ReadProperties
 page/DescargarDocumento.java
  page.DescargarDocumento
-Utils/Reporte/ImageResize.java
- Utils.Reporte.ImageResize
+testClases/RecuperarTabla.java
+ testClases.RecuperarTabla
 Utils/Constants/Constants.java
  Utils.Constants.Constants
 testClases/Descargar.java
@@ -28,8 +28,8 @@ testClases/ValidarPagina.java
  testClases.ValidarPagina
 testClases/IngresoNuevoUsuario.java
  testClases.IngresoNuevoUsuario
-page/CrearUsuario.java
- page.CrearUsuario
+page/Tabla.java
+ page.Tabla
 testClases/Ingresar.java
  testClases.Ingresar
 page/SubirArchivo.java
@@ -44,13 +44,13 @@ Utils/DriverManager.java
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
-page/Tarea.java
- page.Tarea
-page/ValidacionOpciones.java
- page.ValidacionOpciones
-testClases/RecuperarTabla.java
- testClases.RecuperarTabla
-page/Tabla.java
- page.Tabla
 testSuite/recuperarInformacion.java
  testSuite.recuperarInformacion
+Utils/Reporte/ImageResize.java
+ Utils.Reporte.ImageResize
+page/CrearUsuario.java
+ page.CrearUsuario
+page/ValidacionOpciones.java
+ page.ValidacionOpciones
+page/Tarea.java
+ page.Tarea
