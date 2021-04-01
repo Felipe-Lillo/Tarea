@@ -4,6 +4,7 @@ import Utils.DriverContext;
 import Utils.ReadProperties;
 import Utils.Reporte.EstadoPrueba;
 import Utils.Reporte.PdfQaNovaReports;
+import Utils.Validaciones;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -30,13 +31,13 @@ public class Tarea {
 
     //Metodo que en este caso recupera el nombre y color del mensaje de error
     public void recuperarMensaje() throws InterruptedException {
-        txtUsuario.sendKeys(ReadProperties.readFromConfig("Properties.properties").getProperty("usuario"));
-        txtClave.sendKeys(ReadProperties.readFromConfig("Properties.properties").getProperty("clave"));
+        txtUsuario.sendKeys(ReadProperties.readFromConfig("Properties.properties").getProperty("usuario2"));
+        txtClave.sendKeys(ReadProperties.readFromConfig("Properties.properties").getProperty("clave2"));
         PdfQaNovaReports.addWebReportImage("Relleno de campos con datos erróneos", "Se ingresan datos erroneos en los campos de texto [Usuario] y [Clave], luego se presiona el boton [Ingresa Demo]", EstadoPrueba.PASSED, false);
         btnIngresar.click();
 
         PdfQaNovaReports.addWebReportImage("Mensaje de error", "Se ingresan las credenciales con datos erróneos y se muestra el mensaje de error Nombre y/o password incorrecto en un recuadro de color rojo", EstadoPrueba.PASSED, false);
-        msmError.getCssValue("Color");
+        Validaciones.validarObjeto(msmError,"Cuadro de texto del mensaje de error");
         System.out.println(msmError.getCssValue("color"));
         msmError.getText();
         System.out.println(msmError.getText());

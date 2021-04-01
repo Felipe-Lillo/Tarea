@@ -96,7 +96,6 @@ public class recuperarInformacion {
         ingresar.inicio(Usuario, Clave);
         RecuperarTabla recuperar = new RecuperarTabla();
         recuperar.datosTabla();
-
     }
 
     /**
