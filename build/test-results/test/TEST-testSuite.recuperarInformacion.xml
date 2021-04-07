@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-01T19:29:43" hostname="DESKTOP-DIGRJAB" time="10.966">
+<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-05T22:10:50" hostname="DESKTOP-DIGRJAB" time="2.071">
   <properties/>
-  <testcase name="nuevoUsuario" classname="testSuite.recuperarInformacion" time="10.966"/>
-  <system-out><![CDATA[Se despliega correctamente el elemento "link presione AQUI", identificador: 
-Se despliega correctamente el elemento "Campo de texto Nombre de usuario", identificador: imRegUname
-
-[PdfBciReport] closePDF
-[PdfBciReport] createTitlePage
-File: YQCUC5IPYO0EUTY Not found
-]]></system-out>
+  <testcase name="resaltarCampos" classname="testSuite.recuperarInformacion" time="2.071"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

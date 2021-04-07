@@ -150,4 +150,10 @@ public class recuperarInformacion {
         EnviarMail enviarMail = new EnviarMail();
         enviarMail.enviarMensange();
     }
+
+    @Test
+    public void resaltarCampos() throws InterruptedException{
+        Ingresar ingresar = new Ingresar();
+        ingresar.highlightElement();
+    }
 }

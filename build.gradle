@@ -21,7 +21,9 @@ dependencies {
     compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.1'
     // https://mvnrepository.com/artifact/javax.mail/mail
     implementation group: 'javax.mail', name: 'mail', version: '1.4.7'
-
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
 }
 test {
     useTestNG()

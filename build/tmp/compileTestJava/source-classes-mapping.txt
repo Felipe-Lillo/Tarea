@@ -1,56 +1,64 @@
-Utils/ReadProperties.java
- Utils.ReadProperties
-Utils/DriverManager.java
- Utils.DriverManager
- Utils.DriverManager$1
-Utils/DriverContext.java
- Utils.DriverContext
-Utils/Constants/Constants.java
- Utils.Constants.Constants
-Utils/Utils.java
- Utils.Utils
-Utils/Constants/Ambientes.java
- Utils.Constants.Ambientes
-Utils/Validaciones.java
- Utils.Validaciones
-Utils/Reporte/EstadoPrueba.java
- Utils.Reporte.EstadoPrueba
-Utils/Constants/Navegador.java
- Utils.Constants.Navegador
-testClases/EnviarMail.java
- testClases.EnviarMail
-testClases/IngresoNuevoUsuario.java
- testClases.IngresoNuevoUsuario
-page/Login.java
- page.Login
+BDmysql/Conexion.java
+ BDmysql.Conexion
 testSuite/recuperarInformacion.java
  testSuite.recuperarInformacion
 page/DescargarDocumento.java
  page.DescargarDocumento
-testClases/ValidarPagina.java
- testClases.ValidarPagina
 Utils/Reporte/ImageResize.java
  Utils.Reporte.ImageResize
-page/CrearUsuario.java
- page.CrearUsuario
+Utils/Constants/Constants.java
+ Utils.Constants.Constants
 page/SubirArchivo.java
  page.SubirArchivo
 page/Tabla.java
  page.Tabla
-testClases/Archivo.java
- testClases.Archivo
-testClases/RecuperarTabla.java
- testClases.RecuperarTabla
+Utils/Constants/Ambientes.java
+ Utils.Constants.Ambientes
+Utils/DriverContext.java
+ Utils.DriverContext
+Utils/Reporte/EstadoPrueba.java
+ Utils.Reporte.EstadoPrueba
 testClases/Ingresar.java
  testClases.Ingresar
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
+Utils/Validaciones.java
+ Utils.Validaciones
+testClases/EnviarMail.java
+ testClases.EnviarMail
+testClases/validacionMensaje.java
+ testClases.validacionMensaje
+Utils/Constants/Navegador.java
+ Utils.Constants.Navegador
+testClases/IngresoNuevoUsuario.java
+ testClases.IngresoNuevoUsuario
+page/Login.java
+ page.Login
+Utils/Utils.java
+ Utils.Utils
+testClases/ValidarPagina.java
+ testClases.ValidarPagina
+BDmysql/BD.java
+ BDmysql.BD
+page/CrearUsuario.java
+ page.CrearUsuario
+BDmysql/ConeccionBD.java
+ BDmysql.ConeccionBD
+testClases/Archivo.java
+ testClases.Archivo
+testClases/RecuperarTabla.java
+ testClases.RecuperarTabla
+Utils/ReadProperties.java
+ Utils.ReadProperties
+page/Wikipedia.java
+ page.Wikipedia
 testClases/Descargar.java
  testClases.Descargar
 page/ValidacionOpciones.java
  page.ValidacionOpciones
-testClases/validacionMensaje.java
- testClases.validacionMensaje
 page/Tarea.java
  page.Tarea
+Utils/DriverManager.java
+ Utils.DriverManager
+ Utils.DriverManager$1
