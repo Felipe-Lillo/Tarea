@@ -1,7 +1,7 @@
 BDmysql/Conexion.java
  BDmysql.Conexion
-testSuite/recuperarInformacion.java
- testSuite.recuperarInformacion
+page/Tarea.java
+ page.Tarea
 page/DescargarDocumento.java
  page.DescargarDocumento
 Utils/Reporte/ImageResize.java
@@ -18,13 +18,15 @@ Utils/DriverContext.java
  Utils.DriverContext
 Utils/Reporte/EstadoPrueba.java
  Utils.Reporte.EstadoPrueba
-testClases/Ingresar.java
- testClases.Ingresar
+BDmysql/Consulta.java
+ BDmysql.Consulta
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
 Utils/Validaciones.java
  Utils.Validaciones
+page/ValidacionOpciones.java
+ page.ValidacionOpciones
 testClases/EnviarMail.java
  testClases.EnviarMail
 testClases/validacionMensaje.java
@@ -39,12 +41,11 @@ Utils/Utils.java
  Utils.Utils
 testClases/ValidarPagina.java
  testClases.ValidarPagina
-BDmysql/BD.java
- BDmysql.BD
 page/CrearUsuario.java
  page.CrearUsuario
-BDmysql/ConeccionBD.java
- BDmysql.ConeccionBD
+Utils/DriverManager.java
+ Utils.DriverManager
+ Utils.DriverManager$1
 testClases/Archivo.java
  testClases.Archivo
 testClases/RecuperarTabla.java
@@ -55,10 +56,11 @@ page/Wikipedia.java
  page.Wikipedia
 testClases/Descargar.java
  testClases.Descargar
-page/ValidacionOpciones.java
- page.ValidacionOpciones
-page/Tarea.java
- page.Tarea
-Utils/DriverManager.java
- Utils.DriverManager
- Utils.DriverManager$1
+testClases/Ingresar.java
+ testClases.Ingresar
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion
+BDmysql/InsertarBD.java
+ BDmysql.InsertarBD
+BDmysql/UpdateBD.java
+ BDmysql.UpdateBD

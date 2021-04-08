@@ -5,15 +5,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    static final String driver = "com.mysql.jdbc.Driver";
     static final String nombreBD = "qanovapractica";
     static final String url = "jdbc:mysql://localhost:3306/qanovapractica";
-
     static final String username = "root";
     static final String pass = "secret";
 
     Connection conexion = null;
     //Constructor
+
     public Conexion() throws ClassNotFoundException, SQLException {
         try{
             //obtener el driver

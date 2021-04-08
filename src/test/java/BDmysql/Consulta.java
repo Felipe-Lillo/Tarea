@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ConeccionBD {
+public class Consulta {
     private static Conexion conexion;
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         //LLAMAMOS A LA CONEXIÓN
@@ -40,5 +40,4 @@ public class ConeccionBD {
         e.printStackTrace();
     }
     }
-
 }
