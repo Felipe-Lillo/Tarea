@@ -35,6 +35,7 @@ public class Consulta {
         //FINALIZANDO EL PROCESO
         }conn.close();
         rs.close();
+        System.out.println("Base de datos cerrada");
         st.close();
     } catch (SQLException e) {
         e.printStackTrace();

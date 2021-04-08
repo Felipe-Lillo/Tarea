@@ -31,6 +31,9 @@ public class InsertarBD {
             st.executeUpdate(query);
             System.out.println("Un nuevo usuario ha sido ingresado");
             System.out.println(query);
+            conn.close();
+            System.out.println("Base de datos cerrada");
+            st.close();
         }catch (Exception e){
             e.printStackTrace();
         }

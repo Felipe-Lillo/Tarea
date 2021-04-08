@@ -21,7 +21,9 @@ public class UpdateBD {
                     + ReadProperties.readFromConfig("BDpropiedades.properties").getProperty("idUpdate");
             st.executeUpdate(query);
             System.out.println("Se acaba de actualizar el " + ReadProperties.readFromConfig("BDpropiedades.properties").getProperty("campoUpdate") + " del id = "+ ReadProperties.readFromConfig("BDpropiedades.properties").getProperty("idUpdate"));
-
+            conn.close();
+            System.out.println("Base de datos cerrada");
+            st.close();
         }catch (Exception e){
             e.printStackTrace();
         }
