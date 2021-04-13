@@ -20,7 +20,7 @@ public class Consulta {
             //CREAMOS LA CONSULTA
             st = conn.createStatement();
             st.setQueryTimeout(30);
-            rs = st.executeQuery("select * from matriz where "+ ReadProperties.readFromConfig("Properties.properties").getProperty("Filtro") + " = " + ReadProperties.readFromConfig("Properties.properties").getProperty("dato"));
+            rs = st.executeQuery("select * from matriz where "+ ReadProperties.readFromConfig("BDpropiedades.properties").getProperty("Filtro") + " = " + ReadProperties.readFromConfig("BDpropiedades.properties").getProperty("dato"));
             //COMO QUIERO QUE ME MUESTRE LA CONSULTA
             while (rs.next()){
                 System.out.println("Id :" + rs.getString("id"));

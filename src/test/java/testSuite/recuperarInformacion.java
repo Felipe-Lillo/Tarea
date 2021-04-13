@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import testClases.*;
 
+import java.io.IOException;
+
 public class recuperarInformacion {
     /**
      * Llamado a variables dependientes de las properties
@@ -23,7 +25,7 @@ public class recuperarInformacion {
     @BeforeTest
     public void setUp() {
         DriverContext.setUp(Navegador.Chrome, url);
-        PdfQaNovaReports.createPDF();
+        //PdfQaNovaReports.createPDF();
 
     }
 
@@ -151,10 +153,24 @@ public class recuperarInformacion {
         enviarMail.enviarMensange();
     }
 
+    /**
+     * Test remarcar o resaltar campos
+     * @throws InterruptedException
+     */
     @Test
     public void resaltarCampos() throws InterruptedException{
         Ingresar ingresar = new Ingresar();
         ingresar.highlightElement();
     }
 
+    /**
+     * Prueba que crea y escribe los datos obtenidos en la pgina web de sodimac
+     * @throws InterruptedException
+     * @throws IOException
+     */
+    @Test
+    public void sodimacPrueba() throws InterruptedException, IOException {
+        SodimacArchivoTxt sodimacArchivoTxt = new SodimacArchivoTxt();
+        sodimacArchivoTxt.sodimacArchivo();
+    }
 }

@@ -49,11 +49,6 @@ public class DescargarDocumento {
                 }
             }
         }
-
-        //System.out.println(Carpeta.getAbsolutePath());
-        //System.out.println(Carpeta.exists());
-
-
     }
 
 }
