@@ -1,12 +1,12 @@
 package testClases;
-
-import page.Sodimac;
-
+import page.Sodimac.*;
 import java.io.IOException;
 
 public class SodimacArchivoTxt {
-    public void sodimacArchivo() throws InterruptedException, IOException {
-        Sodimac busquedaProducto = new Sodimac();
-        busquedaProducto.procesoBusquedaProducto();
+    public void sodimacArchivo() throws IOException {
+        InicioPagina inicioPagina = new InicioPagina();
+        inicioPagina.primeraPestaña();
+        BuscarProductoSodimac buscarProductoSodimac = new BuscarProductoSodimac();
+        buscarProductoSodimac.procesoBusquedaProducto();
     }
 }

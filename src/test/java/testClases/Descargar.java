@@ -1,6 +1,6 @@
 package testClases;
 
-import page.DescargarDocumento;
+import page.QAnova.DescargarDocumento;
 /**
  * Creación del constructor donde llamaremos a la clase Java DescargarDocumento/descargarDocument
  */

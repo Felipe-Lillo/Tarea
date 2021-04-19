@@ -1,7 +1,7 @@
 package testClases;
 
 import Utils.ReadProperties;
-import page.SubirArchivo;
+import page.QAnova.SubirArchivo;
 
 /**
  * Creación del constructor donde llamaremos a la clase Java SubirArchivo/procesos

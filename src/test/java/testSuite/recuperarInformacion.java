@@ -16,8 +16,8 @@ public class recuperarInformacion {
      * Llamado a variables dependientes de las properties
      */
     String url = ReadProperties.readFromConfig("Properties.properties").getProperty("url");
-    String Usuario = ReadProperties.readFromConfig("Properties.properties").getProperty("usuario");
-    String Clave = ReadProperties.readFromConfig("Properties.properties").getProperty("clave");
+    String usuario = ReadProperties.readFromConfig("Properties.properties").getProperty("usuario");
+    String clave = ReadProperties.readFromConfig("Properties.properties").getProperty("clave");
 
     /**
      * Interfaz donde se indica de donde o adonde iniciaran las pruebas
@@ -45,7 +45,7 @@ public class recuperarInformacion {
     @Test
     public void ingresar() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario,clave);
         PdfQaNovaReports.closePDF();
     }
 
@@ -69,7 +69,7 @@ public class recuperarInformacion {
     @Test
     public void buscarColor() throws InterruptedException {
         validacionMensaje validar = new validacionMensaje();
-        validar.entregarMensaje();
+        validar.entregarMensaje(usuario,clave);
         PdfQaNovaReports.closePDF();
     }
 
@@ -81,7 +81,7 @@ public class recuperarInformacion {
     @Test
     public void rellenarCamposPage() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario,clave);
         ValidarPagina validarPagina = new ValidarPagina();
         validarPagina.rellenar("Hola mundo", "19/03/2021", "git@github.com");
         PdfQaNovaReports.closePDF();
@@ -95,7 +95,7 @@ public class recuperarInformacion {
     @Test
     public void extraerDatosTabla() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario,clave);
         RecuperarTabla recuperar = new RecuperarTabla();
         recuperar.datosTabla();
     }
@@ -108,7 +108,7 @@ public class recuperarInformacion {
     @Test
     public void subirArchivo() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario, clave);
         Archivo archivo = new Archivo();
         archivo.recuperarArchivo();
     }
@@ -132,7 +132,7 @@ public class recuperarInformacion {
     @Test
     public void seleccionarDia() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario, clave);
         ValidarPagina validar = new ValidarPagina();
         validar.rellenarCalendario();
 
@@ -146,7 +146,7 @@ public class recuperarInformacion {
     @Test
     public void enviarCorreo() throws InterruptedException {
         Ingresar ingresar = new Ingresar();
-        ingresar.inicio(Usuario, Clave);
+        ingresar.inicio(usuario, clave);
         RecuperarTabla recuperar = new RecuperarTabla();
         recuperar.datosTabla();
         EnviarMail enviarMail = new EnviarMail();
@@ -172,5 +172,12 @@ public class recuperarInformacion {
     public void sodimacPrueba() throws InterruptedException, IOException {
         SodimacArchivoTxt sodimacArchivoTxt = new SodimacArchivoTxt();
         sodimacArchivoTxt.sodimacArchivo();
+    }
+
+    @Test
+    public void jsonPrueba() throws IOException, InterruptedException {
+        Ingresar ingresar = new Ingresar();
+        ingresar.iniciarPila();
+        PdfQaNovaReports.closePDF();
     }
 }

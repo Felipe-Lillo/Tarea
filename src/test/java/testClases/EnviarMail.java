@@ -1,7 +1,7 @@
 package testClases;
 
 import Utils.ReadProperties;
-import page.Tabla;
+import page.QAnova.Tabla;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;

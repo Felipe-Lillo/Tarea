@@ -1,7 +1,15 @@
 Marca: Passol
 Nombre producto: Pintura látex blanco 1 gl
-Calificación: 3.5 (101)
+Calificación: 3.5 (102)
 Precio: $4.090C/U
+Disponible para despacho
+Disponible para retiro
+*************************
+
+Marca: Lizcal
+Nombre producto: Kit de bandeja + 2 rodillos
+Calificación: 4.5 (29)
+Precio: $3.890C/U
 Disponible para despacho
 Disponible para retiro
 *************************
@@ -9,7 +17,15 @@ Disponible para retiro
 Marca: Sipa
 Nombre producto: Esmalte al agua semibrillante blanco 1 gl
 Calificación: 4.5 (148)
-Precio: $19.990C/U
+Precio: $19.960C/U
+Disponible para despacho
+Disponible para retiro
+*************************
+
+Marca: Tajamar
+Nombre producto: Esmalte al agua satinado blanco 1 gl
+Calificación: 4.5 (74)
+Precio: $12.990C/U
 Disponible para despacho
 Disponible para retiro
 *************************
@@ -17,6 +33,22 @@ Disponible para retiro
 Marca: Norton
 Nombre producto: Lija A-257 madera grano 120
 Calificación: 4.5 (4)
+Precio: $190C/U
+Disponible para despacho
+Disponible para retiro
+*************************
+
+Marca: RDL
+Nombre producto: Guante multipropósito polycotton
+Calificación: 4.5 (22)
+Precio: $1.180PAR
+Disponible para despacho
+Disponible para retiro
+*************************
+
+Marca: Norton
+Nombre producto: Lija A-257 madera grano 100
+Calificación: 5.0 (1)
 Precio: $190C/U
 Disponible para despacho
 Disponible para retiro
@@ -30,12 +62,12 @@ Disponible para despacho
 Disponible para retiro
 *************************
 
-Marca: Lizcal
-Nombre producto: Bandeja plástica para rodillos de hasta 23 cm
-Calificación: 4.5 (2)
-Precio: $2.090C/U
+Marca: Evol
+Nombre producto: Esmalte al agua crema oscuro sustentable 5 galones
+Calificación: 0.0 (0)
+Precio: $81.990C/U
 Disponible para despacho
-Disponible para retiro
+No disponible para retiro
 *************************
 
 Marca: Tajamar
@@ -47,10 +79,10 @@ Disponible para retiro
 *************************
 
 Marca: Lizcal
-Nombre producto: Kit de bandeja + 2 rodillos
-Calificación: 4.5 (29)
-Precio: $3.890C/U
-No disponible para despacho
+Nombre producto: Bandeja plástica para rodillos de hasta 23 cm
+Calificación: 4.5 (2)
+Precio: $2.090C/U
+Disponible para despacho
 Disponible para retiro
 *************************
 
@@ -62,10 +94,18 @@ Disponible para despacho
 Disponible para retiro
 *************************
 
+Marca: ATLAS
+Nombre producto: Brocha 5/16"x1"
+Calificación: 5.0 (1)
+Precio: $690C/U
+Disponible para despacho
+Disponible para retiro
+*************************
+
 Marca: Ceresita
 Nombre producto: Esmalte al agua satinado Damasco murano 1 gl
 Calificación: 4.5 (4)
-Precio: $23.990C/U
+Precio: $21.990C/U
 Disponible para despacho
 Disponible para retiro
 *************************
@@ -94,10 +134,10 @@ Disponible para despacho
 Disponible para retiro
 *************************
 
-Marca: Ceresita
-Nombre producto: Esmalte Sintetico Cereluxe Aquatech Semibrillo Negro 1/4 gl
-Calificación: 3.5 (4)
-Precio: $8.740C/U
+Marca: Dynal
+Nombre producto: Daynacup-Lex 1/4 gl
+Calificación: 3.0 (2)
+Precio: $9.190C/U
 No disponible para despacho
 Disponible para retiro
 *************************
@@ -110,17 +150,25 @@ Disponible para despacho
 Disponible para retiro
 *************************
 
-Marca: Tajamar
-Nombre producto: Esmalte al agua satinado blanco invierno 1 gl
-Calificación: 4.5 (17)
-Precio: $12.990C/U
+Marca: Ceresita
+Nombre producto: Esmalte Sintetico Cereluxe Aquatech Semibrillo Negro 1/4 gl
+Calificación: 3.5 (4)
+Precio: $8.740C/U
+No disponible para despacho
+Disponible para retiro
+*************************
+
+Marca: Sipa
+Nombre producto: Pintura látex extracubriente mate blanco 4 gl
+Calificación: 4.5 (82)
+Precio: $49.360C/U
 Disponible para despacho
 Disponible para retiro
 *************************
 
 Marca: Tajamar
-Nombre producto: Esmalte al agua satinado blanco 1 gl
-Calificación: 4.5 (74)
+Nombre producto: Esmalte al agua satinado blanco invierno 1 gl
+Calificación: 4.5 (17)
 Precio: $12.990C/U
 Disponible para despacho
 Disponible para retiro
@@ -134,90 +182,42 @@ Disponible para despacho
 Disponible para retiro
 *************************
 
-Marca: Química Universal
-Nombre producto: Aguarrás mineral 1 lt
-Calificación: 4.5 (51)
-Precio: $990C/U
-Disponible para despacho
+Marca: Isesa
+Nombre producto: Lija al agua 9"x11'' grano 120
+Calificación: 5.0 (1)
+Precio: $340C/U
+No disponible para despacho
 Disponible para retiro
 *************************
 
-Marca: Sipa
-Nombre producto: Esmalte al agua semibrillante blanco 5 gl
-Calificación: 4.5 (101)
-Precio: $79.960C/U
+Marca: Bekron
+Nombre producto: Adhesivo Ceramico Standard en polvo 25 Kg
+Calificación: 4.5 (40)
+Precio: $2.490C/U
 Disponible para despacho
 No disponible para retiro
 *************************
 
-Marca: Kolor
-Nombre producto: Esmalte al agua antibacterial satinado morado patiala 1 gl
-Calificación: 0.0 (0)
-Precio: $39.990C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: Topex
-Nombre producto: Cinta para enmascarar 24 mm 40 m
-Calificación: 5.0 (4)
-Precio: $1.590C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: Tricolor
-Nombre producto: Látex Profesional negro 1/4 gl
-Calificación: 4.5 (8)
-Precio: $6.990C/U
+Marca: Hela
+Nombre producto: Espátula acero flexible 80 mm
+Calificación: 4.5 (7)
+Precio: $2.290C/U
 Disponible para despacho
 Disponible para retiro
 *************************
 
 Marca: Tesa
-Nombre producto: Cinta para enmascarar 24 mm 40 m
-Calificación: 4.5 (7)
-Precio: $1.490C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: Tajamar
-Nombre producto: Pintura látex acrílico blanco invierno 1 gl
-Calificación: 4.5 (9)
-Precio: $8.990C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: Lanco
-Nombre producto: Esmalte al agua antibacterial maxima zero semibrillo castle ford 1gl
-Calificación: 0.0 (0)
-Precio: $29.990C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: RDL
-Nombre producto: Guante multipropósito polycotton
-Calificación: 4.5 (22)
-Precio: $1.180PAR
+Nombre producto: Cinta para enmascarar 50 mm 50 m
+Calificación: 5.0 (1)
+Precio: $4.190C/U
 Disponible para despacho
 Disponible para retiro
 *************************
 
 Marca: Lizcal
-Nombre producto: Rodillo de fibra termofusionado 0,6x18 cm
-Calificación: 4.5 (31)
-Precio: $2.590C/U
-Disponible para despacho
-Disponible para retiro
-*************************
-
-Marca: Kolor
-Nombre producto: Brocha multipropósito 3"
-Calificación: 7.0 (3)
-Precio: $3.350C/U
+Nombre producto: Espátula lisa plástico 4''
+Calificación: 6.5 (4)
+Precio: $850C/U
 Disponible para despacho
 Disponible para retiro
 *************************

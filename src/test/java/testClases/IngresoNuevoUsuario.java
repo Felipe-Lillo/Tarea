@@ -1,6 +1,6 @@
 package testClases;
 
-import page.CrearUsuario;
+import page.QAnova.CrearUsuario;
 
 public class IngresoNuevoUsuario {
     /**

@@ -1,6 +1,6 @@
 package testClases;
 
-import page.ValidacionOpciones;
+import page.QAnova.ValidacionOpciones;
 
 public class ValidarPagina {
 

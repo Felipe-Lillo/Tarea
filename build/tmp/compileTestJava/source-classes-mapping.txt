@@ -1,70 +1,74 @@
+page/QAnova/Tabla.java
+ page.QAnova.Tabla
 BDmysql/Conexion.java
  BDmysql.Conexion
-testSuite/recuperarInformacion.java
- testSuite.recuperarInformacion
-page/DescargarDocumento.java
- page.DescargarDocumento
+Utils/DriverManager.java
+ Utils.DriverManager
+ Utils.DriverManager$1
+page/QAnova/DescargarDocumento.java
+ page.QAnova.DescargarDocumento
 Utils/Reporte/ImageResize.java
  Utils.Reporte.ImageResize
+page/QAnova/CrearUsuario.java
+ page.QAnova.CrearUsuario
 Utils/Constants/Constants.java
  Utils.Constants.Constants
-page/SubirArchivo.java
- page.SubirArchivo
-page/Tabla.java
- page.Tabla
+page/Sodimac/BuscarProductoSodimac.java
+ page.Sodimac.BuscarProductoSodimac
 Utils/Constants/Ambientes.java
  Utils.Constants.Ambientes
 Utils/DriverContext.java
  Utils.DriverContext
 Utils/Reporte/EstadoPrueba.java
  Utils.Reporte.EstadoPrueba
-testClases/Ingresar.java
- testClases.Ingresar
+testClases/SodimacArchivoTxt.java
+ testClases.SodimacArchivoTxt
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
 Utils/RevisionDocumentosTmp.java
  Utils.RevisionDocumentosTmp
-BDmysql/Consulta.java
- BDmysql.Consulta
+page/QAnova/MensajeErrorSesion.java
+ page.QAnova.MensajeErrorSesion
 Utils/Validaciones.java
  Utils.Validaciones
 BDmysql/UpdateBD.java
  BDmysql.UpdateBD
+page/QAnova/SubirArchivo.java
+ page.QAnova.SubirArchivo
+page/Sodimac/InicioPagina.java
+ page.Sodimac.InicioPagina
 BDmysql/InsertarBD.java
  BDmysql.InsertarBD
 testClases/EnviarMail.java
  testClases.EnviarMail
-testClases/validacionMensaje.java
- testClases.validacionMensaje
+BDmysql/Consulta.java
+ BDmysql.Consulta
 Utils/Constants/Navegador.java
  Utils.Constants.Navegador
 testClases/IngresoNuevoUsuario.java
  testClases.IngresoNuevoUsuario
-page/Login.java
- page.Login
+page/QAnova/Usuario.java
+ page.QAnova.Usuario
 Utils/Utils.java
  Utils.Utils
 testClases/ValidarPagina.java
  testClases.ValidarPagina
-page/CrearUsuario.java
- page.CrearUsuario
+testClases/Descargar.java
+ testClases.Descargar
 testClases/Archivo.java
  testClases.Archivo
 testClases/RecuperarTabla.java
  testClases.RecuperarTabla
+page/QAnova/ValidacionOpciones.java
+ page.QAnova.ValidacionOpciones
 Utils/ReadProperties.java
  Utils.ReadProperties
-testClases/Descargar.java
- testClases.Descargar
-page/ValidacionOpciones.java
- page.ValidacionOpciones
-page/Tarea.java
- page.Tarea
-Utils/DriverManager.java
- Utils.DriverManager
- Utils.DriverManager$1
-page/Sodimac.java
- page.Sodimac
-testClases/SodimacArchivoTxt.java
- testClases.SodimacArchivoTxt
+testClases/validacionMensaje.java
+ testClases.validacionMensaje
+page/QAnova/Login.java
+ page.QAnova.Login
+testClases/Ingresar.java
+ testClases.Ingresar
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion
