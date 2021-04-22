@@ -8,6 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import testClases.*;
+import testClases.ChileAutosClass.RecuperarDatosVehiculos;
 
 import java.io.IOException;
 
@@ -179,5 +180,11 @@ public class recuperarInformacion {
         Ingresar ingresar = new Ingresar();
         ingresar.iniciarPila();
         PdfQaNovaReports.closePDF();
+    }
+
+    @Test
+    public void chileAutosMultimedia() throws InterruptedException, IOException {
+        RecuperarDatosVehiculos recuperarDatosVehiculos = new RecuperarDatosVehiculos();
+        recuperarDatosVehiculos.descargarArchivos();
     }
 }

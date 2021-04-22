@@ -21,4 +21,29 @@ public class RevisionDocumentosTmp {
             return false;
         }
     }
+    public static boolean limpiarCarpeta(String nombreCarpeta){
+        File archivo = new File(ReadProperties.readFromConfig("Properties.properties").getProperty("rutaCapertaImagenes") + "\\" + nombreCarpeta);
+        File[] revisarArchivo = archivo.listFiles();
+        try{
+            for (int x = 0; x < revisarArchivo.length; x++) {
+                revisarArchivo[x].delete();
+                if(revisarArchivo == null){
+                    return true;
+                }
+            }
+            return false;
+        }catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }
+        /*if (RevisarArchivo.equals(nombreCarpeta)) {
+            File archivos = new File(ReadProperties.readFromConfig("Properties.properties").getProperty("rutaCarpetaImagenes") + "\\" + nombreCarpeta);
+            archivos.delete();
+            System.out.println("Carpeta limpia");
+            return true;
+        }else{
+            System.out.println("La carpeta no existe");
+            return false;
+        }*/
+    }
 }

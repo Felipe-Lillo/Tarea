@@ -13,8 +13,8 @@ page/QAnova/CrearUsuario.java
  page.QAnova.CrearUsuario
 Utils/Constants/Constants.java
  Utils.Constants.Constants
-page/Sodimac/BuscarProductoSodimac.java
- page.Sodimac.BuscarProductoSodimac
+page/ChileAutos/Index.java
+ page.ChileAutos.Index
 Utils/Constants/Ambientes.java
  Utils.Constants.Ambientes
 Utils/DriverContext.java
@@ -26,8 +26,8 @@ testClases/SodimacArchivoTxt.java
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
-Utils/RevisionDocumentosTmp.java
- Utils.RevisionDocumentosTmp
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion
 page/QAnova/MensajeErrorSesion.java
  page.QAnova.MensajeErrorSesion
 Utils/Validaciones.java
@@ -48,8 +48,8 @@ Utils/Constants/Navegador.java
  Utils.Constants.Navegador
 testClases/IngresoNuevoUsuario.java
  testClases.IngresoNuevoUsuario
-page/QAnova/Usuario.java
- page.QAnova.Usuario
+Utils/ReadProperties.java
+ Utils.ReadProperties
 Utils/Utils.java
  Utils.Utils
 testClases/ValidarPagina.java
@@ -62,13 +62,21 @@ testClases/RecuperarTabla.java
  testClases.RecuperarTabla
 page/QAnova/ValidacionOpciones.java
  page.QAnova.ValidacionOpciones
-Utils/ReadProperties.java
- Utils.ReadProperties
 testClases/validacionMensaje.java
  testClases.validacionMensaje
-page/QAnova/Login.java
- page.QAnova.Login
+page/ChileAutos/VerificaciónCaptcha.java
+ page.ChileAutos.VerificaciónCaptcha
 testClases/Ingresar.java
  testClases.Ingresar
-testSuite/recuperarInformacion.java
- testSuite.recuperarInformacion
+page/QAnova/Login.java
+ page.QAnova.Login
+page/ChileAutos/Vehiculos.java
+ page.ChileAutos.Vehiculos
+page/Sodimac/BuscarProductoSodimac.java
+ page.Sodimac.BuscarProductoSodimac
+Utils/RevisionDocumentosTmp.java
+ Utils.RevisionDocumentosTmp
+page/ChileAutos/InformaciónVehiculoSeleccionado.java
+ page.ChileAutos.InformaciónVehiculoSeleccionado
+testClases/ChileAutosClass/RecuperarDatosVehiculos.java
+ testClases.ChileAutosClass.RecuperarDatosVehiculos
