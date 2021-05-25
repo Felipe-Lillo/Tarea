@@ -29,8 +29,7 @@ public class InformaciónVehiculoSeleccionado {
     @FindBy(xpath = "/html/body/div[5]/div/div[1]/div[2]/div/div[1]/div[3]/div/div")
     WebElement listaImagenes;
 
-    @FindBy(xpath = "//*[@id=\"details\"]/div[1]/div[2]")
-    WebElement vehiculo;
+
     public InformaciónVehiculoSeleccionado(){
         PageFactory.initElements(DriverContext.getDriver(),this);
     }

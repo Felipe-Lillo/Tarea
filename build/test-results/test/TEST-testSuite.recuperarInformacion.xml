@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-21T19:16:54" hostname="DESKTOP-DIGRJAB" time="44.769">
+<testsuite name="testSuite.recuperarInformacion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-24T16:35:04" hostname="DESKTOP-DIGRJAB" time="37.395">
   <properties/>
-  <testcase name="chileAutosMultimedia" classname="testSuite.recuperarInformacion" time="44.769"/>
-  <system-out><![CDATA[Se despliega correctamente el elemento "boton buscar", identificador: 
-Se despliega correctamente el elemento "boton buscar", identificador: 
-Imagenes: 7
-Se despliega correctamente el elemento "Titulo 'Comentarios'", identificador: 
-Se despliega correctamente el elemento "imagen principal", identificador: 
-
-
-
-DESCRIPCIÓN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <testcase name="buscarProductoDiario" classname="testSuite.recuperarInformacion" time="37.395"/>
+  <system-out><![CDATA[Conectando a la base de datos...
+Conexión exitosa a la BD: glowecoi_test
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+Se despliega correctamente el elemento "producto", identificador: 
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+No se despliega el elemento "producto"
+El producto no se ha encontrado
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+Se despliega correctamente el elemento "producto", identificador: 
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+Se despliega correctamente el elemento "producto", identificador: 
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+Se despliega correctamente el elemento "producto", identificador: 
+Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+No se despliega el elemento "producto"
+El producto no se ha encontrado
+Conectando a la base de datos...
+Conexión exitosa a la BD: glowecoi_test
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

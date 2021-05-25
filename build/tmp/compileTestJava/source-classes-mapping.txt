@@ -1,82 +1,100 @@
+testClases/QanovaClases/EnviarMail.java
+ testClases.QanovaClases.EnviarMail
 page/QAnova/Tabla.java
  page.QAnova.Tabla
 BDmysql/Conexion.java
  BDmysql.Conexion
-Utils/DriverManager.java
- Utils.DriverManager
- Utils.DriverManager$1
-page/QAnova/DescargarDocumento.java
- page.QAnova.DescargarDocumento
+page/BusquedaOferta/Index.java
+ page.BusquedaOferta.Index
 Utils/Reporte/ImageResize.java
  Utils.Reporte.ImageResize
-page/QAnova/CrearUsuario.java
- page.QAnova.CrearUsuario
+page/ChileAutos/VerificaciónCaptcha.java
+ page.ChileAutos.VerificaciónCaptcha
 Utils/Constants/Constants.java
  Utils.Constants.Constants
-page/ChileAutos/Index.java
- page.ChileAutos.Index
 Utils/Constants/Ambientes.java
  Utils.Constants.Ambientes
 Utils/DriverContext.java
  Utils.DriverContext
 Utils/Reporte/EstadoPrueba.java
  Utils.Reporte.EstadoPrueba
-testClases/SodimacArchivoTxt.java
- testClases.SodimacArchivoTxt
 Utils/Reporte/PdfQaNovaReports.java
  Utils.Reporte.PdfQaNovaReports
  Utils.Reporte.PdfQaNovaReports$1
-testSuite/recuperarInformacion.java
- testSuite.recuperarInformacion
+BDmysql/Consulta.java
+ BDmysql.Consulta
+testClases/QanovaClases/Ingresar.java
+ testClases.QanovaClases.Ingresar
+page/ChileAutos/Index.java
+ page.ChileAutos.Index
+Utils/Utils.java
+ Utils.Utils
+page/QAnova/Login.java
+ page.QAnova.Login
+page/ChileAutos/Vehiculos.java
+ page.ChileAutos.Vehiculos
+testClases/QanovaClases/Archivo.java
+ testClases.QanovaClases.Archivo
+Utils/ReadProperties.java
+ Utils.ReadProperties
+testClases/Pruebas/ImagenesComparar.java
+ testClases.Pruebas.ImagenesComparar
+page/PruebasAprendizaje/ComparaImagenes.java
+ page.PruebasAprendizaje.ComparaImagenes
+Utils/DriverManager.java
+ Utils.DriverManager
+ Utils.DriverManager$1
+testClases/QanovaClases/RecuperarTabla.java
+ testClases.QanovaClases.RecuperarTabla
+page/QAnova/DescargarDocumento.java
+ page.QAnova.DescargarDocumento
+page/QAnova/CrearUsuario.java
+ page.QAnova.CrearUsuario
+page/Sodimac/BuscarProductoSodimac.java
+ page.Sodimac.BuscarProductoSodimac
+testClases/GoogleMaps/BuscarLocacion.java
+ testClases.GoogleMaps.BuscarLocacion
+page/BusquedaOferta/EspecificacionesProducto.java
+ page.BusquedaOferta.EspecificacionesProducto
+testClases/QanovaClases/Descargar.java
+ testClases.QanovaClases.Descargar
+Utils/RevisionDocumentosTmp.java
+ Utils.RevisionDocumentosTmp
+page/ChileAutos/InformaciónVehiculoSeleccionado.java
+ page.ChileAutos.InformaciónVehiculoSeleccionado
 page/QAnova/MensajeErrorSesion.java
  page.QAnova.MensajeErrorSesion
 Utils/Validaciones.java
  Utils.Validaciones
 BDmysql/UpdateBD.java
  BDmysql.UpdateBD
+testClases/QanovaClases/ValidarPagina.java
+ testClases.QanovaClases.ValidarPagina
 page/QAnova/SubirArchivo.java
  page.QAnova.SubirArchivo
 page/Sodimac/InicioPagina.java
  page.Sodimac.InicioPagina
 BDmysql/InsertarBD.java
  BDmysql.InsertarBD
-testClases/EnviarMail.java
- testClases.EnviarMail
-BDmysql/Consulta.java
- BDmysql.Consulta
+testClases/QanovaClases/validacionMensaje.java
+ testClases.QanovaClases.validacionMensaje
+testClases/QanovaClases/IngresoNuevoUsuario.java
+ testClases.QanovaClases.IngresoNuevoUsuario
+testClases/QanovaClases/SodimacArchivoTxt.java
+ testClases.QanovaClases.SodimacArchivoTxt
 Utils/Constants/Navegador.java
  Utils.Constants.Navegador
-testClases/IngresoNuevoUsuario.java
- testClases.IngresoNuevoUsuario
-Utils/ReadProperties.java
- Utils.ReadProperties
-Utils/Utils.java
- Utils.Utils
-testClases/ValidarPagina.java
- testClases.ValidarPagina
-testClases/Descargar.java
- testClases.Descargar
-testClases/Archivo.java
- testClases.Archivo
-testClases/RecuperarTabla.java
- testClases.RecuperarTabla
-page/QAnova/ValidacionOpciones.java
- page.QAnova.ValidacionOpciones
-testClases/validacionMensaje.java
- testClases.validacionMensaje
-page/ChileAutos/VerificaciónCaptcha.java
- page.ChileAutos.VerificaciónCaptcha
-testClases/Ingresar.java
- testClases.Ingresar
-page/QAnova/Login.java
- page.QAnova.Login
-page/ChileAutos/Vehiculos.java
- page.ChileAutos.Vehiculos
-page/Sodimac/BuscarProductoSodimac.java
- page.Sodimac.BuscarProductoSodimac
-Utils/RevisionDocumentosTmp.java
- Utils.RevisionDocumentosTmp
-page/ChileAutos/InformaciónVehiculoSeleccionado.java
- page.ChileAutos.InformaciónVehiculoSeleccionado
 testClases/ChileAutosClass/RecuperarDatosVehiculos.java
  testClases.ChileAutosClass.RecuperarDatosVehiculos
+page/PruebasAprendizaje/WebService.java
+ page.PruebasAprendizaje.WebService
+page/QAnova/ValidacionOpciones.java
+ page.QAnova.ValidacionOpciones
+BDmysql/ConsultaSupermecado.java
+ BDmysql.ConsultaSupermecado
+page/BusquedaOferta/ProductoBuscado.java
+ page.BusquedaOferta.ProductoBuscado
+testSuite/recuperarInformacion.java
+ testSuite.recuperarInformacion
+testClases/ProductoSeleccionado/Producto.java
+ testClases.ProductoSeleccionado.Producto

@@ -1,29 +1,18 @@
-HSe despliega correctamente el elemento "boton buscar", identificador: 
-HSe despliega correctamente el elemento "boton buscar", identificador: 
-Imagenes: 7
-PSe despliega correctamente el elemento "Titulo 'Comentarios'", identificador: 
-LSe despliega correctamente el elemento "imagen principal", identificador: 
-
-
-
-DESCRIPCIÓN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Conectando a la base de datos...
+*Conexión exitosa a la BD: glowecoi_test
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+DSe despliega correctamente el elemento "producto", identificador: 
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+(No se despliega el elemento "producto"
+!El producto no se ha encontrado
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+DSe despliega correctamente el elemento "producto", identificador: 
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+DSe despliega correctamente el elemento "producto", identificador: 
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+DSe despliega correctamente el elemento "producto", identificador: 
+^Se despliega correctamente el elemento "barra de busqueda", identificador: catalystSearchBar
+(No se despliega el elemento "producto"
+!El producto no se ha encontrado
+"Conectando a la base de datos...
+*Conexión exitosa a la BD: glowecoi_test

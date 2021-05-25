@@ -7,10 +7,14 @@ import Utils.Reporte.PdfQaNovaReports;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import testClases.*;
 import testClases.ChileAutosClass.RecuperarDatosVehiculos;
+import testClases.GoogleMaps.BuscarLocacion;
+import testClases.ProductoSeleccionado.Producto;
+import testClases.Pruebas.ImagenesComparar;
+import testClases.QanovaClases.*;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class recuperarInformacion {
     /**
@@ -186,5 +190,24 @@ public class recuperarInformacion {
     public void chileAutosMultimedia() throws InterruptedException, IOException {
         RecuperarDatosVehiculos recuperarDatosVehiculos = new RecuperarDatosVehiculos();
         recuperarDatosVehiculos.descargarArchivos();
+    }
+
+    @Test
+    public void buscarLocacion() throws Exception {
+        BuscarLocacion buscarLocacion = new BuscarLocacion();
+        buscarLocacion.Location();
+        PdfQaNovaReports.closePDF();
+    }
+
+    @Test
+    public void hacerComparacionImagenes(){
+        ImagenesComparar imagenesComparar =  new ImagenesComparar();
+        imagenesComparar.Comparar();
+    }
+
+    @Test
+    public void buscarProductoDiario() throws InterruptedException, SQLException, ClassNotFoundException {
+        Producto producto = new Producto();
+        producto.productoEscogido();
     }
 }

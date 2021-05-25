@@ -59,7 +59,7 @@ public class Tabla {
             id = id + columnas.get(0).getText() + "; ";
             texto = texto + columnas.get(1).getText() + "; ";
             email = email + columnas.get(2).getText() + "; ";
-            area = area + columnas.get(3).getText() + "; ";
+            area = area + columnas.get(3).getText() + ";    ";
             fecha = fecha + columnas.get(4).getText() + "; ";
             lista = lista + columnas.get(5).getText() + "; ";
             seleccion = seleccion + columnas.get(6).getText() + "; ";
